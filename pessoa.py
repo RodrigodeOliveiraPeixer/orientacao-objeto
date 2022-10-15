@@ -43,5 +43,5 @@ class Pessoa:
         print(f"{self.nome}, parou de comer.")
         self.comendo = False    
 
-
+        
 
