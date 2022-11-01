@@ -11,7 +11,7 @@ class Pessoa:
             return
 
         if self.falando:
-            print(f"{self.nom}, já esta falando.")
+            print(f"{self.nome}, já esta falando.")
         
         print(f"{self.nome}, está falando sobre {assunto}.")
         self.falando = True
