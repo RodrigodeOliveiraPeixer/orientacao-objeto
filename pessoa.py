@@ -13,7 +13,7 @@ class Pessoa:
         if self.falando:
             print(f"{self.nome}, já esta falando.")
         
-        print(f"{self.nome}, está falando sobre {assunto}."
+        print(f"{self.nome}, está falando sobre {assunto}.")
         self.falando = True
 
     def parar_falar(self,):
